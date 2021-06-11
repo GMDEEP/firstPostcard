@@ -1,0 +1,67 @@
+body {
+	background: black;
+	display: flex;
+}
+* {
+	border: 1px;
+	min-height: 10px;
+}
+.postcard {
+	background: white;
+	width: 600px;
+	height: 400px;
+	margin: auto;
+	margin-top: 25vh;
+	justify-content: center;
+	align-content: center;
+}
+.postcard-header {
+	display: flex;
+	flex-direction: row;
+}
+.postcard-header img {
+	width: 80px;
+	height: 80px;
+	padding-right: 20px;
+	padding-top: 20px;
+}
+.postcard-body {
+	display: flex;
+	font-size: larger;
+	font-family: "Caveat", cursive;
+}
+.body-left:first-child {
+	margin-top: 5px;
+}
+.body-right {
+	margin-top: 20px;
+}
+.body-left,
+.body-right {
+	padding: 10px;
+}
+input {
+	border: none;
+	border-bottom: grey solid;
+}
+h1 {
+	padding: 10px;
+	width: 100%;
+	font-family: "Caveat", cursive;
+}
+.postcard-footer {
+	text-align: center;
+	justify-content: center;
+}
+button {
+	width: 30%;
+	background-color: lightgray;
+	font-weight: bold;
+	font-size: 16px;
+	text-align: center;
+	font-family: "Caveat", cursive;
+}
+button:hover {
+	background-color: #ddd;
+	color: black;
+}
